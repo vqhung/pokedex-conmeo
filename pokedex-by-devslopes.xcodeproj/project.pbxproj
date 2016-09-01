@@ -14,6 +14,7 @@
 		22E63F831D77C416008BF292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E63F811D77C416008BF292 /* LaunchScreen.storyboard */; };
 		22E63F8E1D77C416008BF292 /* pokedex_by_devslopesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E63F8D1D77C416008BF292 /* pokedex_by_devslopesTests.swift */; };
 		22E63F991D77C416008BF292 /* pokedex_by_devslopesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E63F981D77C416008BF292 /* pokedex_by_devslopesUITests.swift */; };
+		22E63FA71D77D2B5008BF292 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22E63FA61D77D2B5008BF292 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		22E63F941D77C416008BF292 /* pokedex-by-devslopesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pokedex-by-devslopesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E63F981D77C416008BF292 /* pokedex_by_devslopesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokedex_by_devslopesUITests.swift; sourceTree = "<group>"; };
 		22E63F9A1D77C416008BF292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E63FA61D77D2B5008BF292 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = "../pokeapi-master/data/v1/pokemon.csv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				22E63F781D77C416008BF292 /* AppDelegate.swift */,
 				22E63F7A1D77C416008BF292 /* ViewController.swift */,
+				22E63FA61D77D2B5008BF292 /* pokemon.csv */,
 				22E63F7C1D77C416008BF292 /* Main.storyboard */,
 				22E63F7F1D77C416008BF292 /* Assets.xcassets */,
 				22E63F811D77C416008BF292 /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				22E63F831D77C416008BF292 /* LaunchScreen.storyboard in Resources */,
 				22E63F801D77C416008BF292 /* Assets.xcassets in Resources */,
+				22E63FA71D77D2B5008BF292 /* pokemon.csv in Resources */,
 				22E63F7E1D77C416008BF292 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
